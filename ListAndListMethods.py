@@ -30,3 +30,10 @@ print(l1)
 
 # To know the index of an element 
 print(l1.index(10))
+
+# List slicing : Excludes the last index
+print("Slice : ", l1[0:3])
+
+# List are mutable
+l1[1] = "Amith"
+print(l1)
